@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectmcclass">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/projlogon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/projlogon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".adminLogin" android:screenOrientation="portrait"></activity>
+        <activity android:name=".admin" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.login.adminLogin"
+            android:label="@string/title_activity_admin_login" />
+        <activity android:name=".Ratting" android:screenOrientation="portrait"/>
+        <activity android:name=".ListItems" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
