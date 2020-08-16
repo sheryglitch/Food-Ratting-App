@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "316048588029",
+    "firebase_url": "https://food-hawk.firebaseio.com",
+    "project_id": "food-hawk",
+    "storage_bucket": "food-hawk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316048588029:android:1be3b64a2b84b8135e5294",
+        "android_client_info": {
+          "package_name": "com.example.projectmcclass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316048588029-visv2ulnso92g0e8nkm0tua8ldbhcb0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projectmcclass",
+            "certificate_hash": "9d99dcc4c7f41ab26b694733d59a442478675a70"
+          }
+        },
+        {
+          "client_id": "316048588029-tt9uma4trr141fj5pga90sq23klo7fmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzwdAGahEa1-XrizAQqxslPnr0NNbFe3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316048588029-tt9uma4trr141fj5pga90sq23klo7fmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
